@@ -1,3 +1,5 @@
+--The following queries useds the final dataset, after outliers treatment from python file
+
 --First Query: to get total curstomers, total churn and the rate
 WITH general_info as (SELECT
     SUM(CASE
